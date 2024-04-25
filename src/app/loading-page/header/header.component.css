@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    height: 80px;
+    width: 100%;
+  
+    ul{
+        float:left;
+        padding-bottom: 15px;
+    }
+    li{
+        display: inline-block;
+        margin: 0 10px;
+        line-height: 50px;
+    }
+    a{
+        color: blue;
+        font-size: 15px;
+        /* text-transform: uppercase; */
+        border: 1px;
+        padding: 7 10px;
+        border-radius: 3px;
+    }
+    .login{
+        float: right;
+        width: 90px;
+        height: 37px;
+        color: white;
+        background-color: blue;
+        border-radius: 30px;
+        border: 0px none;
+        margin-top: 8px;
+    }
+
+}
