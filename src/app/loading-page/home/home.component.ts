@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   homeimage1:string='loadingone.png';
+  homeImagetwo:string='hometwo.png';
+  HomeImageThree:string='HomeThree.png';
+  HomeImageFour:string='HomeFour.png'
 
 }

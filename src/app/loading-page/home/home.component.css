@@ -6,11 +6,54 @@ margin: 0 15%;
 }
 
 .Download{
-    height: 40px;
+    height: 30px;
     width: 150px;
     color: white;
     background-color: #E54A62;
     border-radius: 64.5px;
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 650px;
+}
+.content1{
+    text-align: center;
+}
+.content2{
+    text-align: center;
+}
+
+.Homepart1{
+    /* //margin: 40px; */
+    
+    display: inline-flex;
+    h2{
+        margin-top: 110px;
+        padding-left: 120px;
+    }
+    p{
+        text-align: center;
+    }
+
+    img{
+        height: 314px;
+        width: 528px;
+    }
+}
+
+.Homepart2{
+    /* //margin: 40px; */
+    
+    display: inline-flex;
+    h2{
+        margin-top: 110px;
+        padding-left: 120px;
+    }
+    p{
+        text-align: center;
+    }
+
+    img{
+        height: 314px;
+        width: 478px;
+    }
 }
