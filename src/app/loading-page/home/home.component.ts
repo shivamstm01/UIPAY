@@ -10,5 +10,11 @@ export class HomeComponent {
   homeImagetwo:string='hometwo.png';
   HomeImageThree:string='HomeThree.png';
   HomeImageFour:string='HomeFour.png'
+  HomeImageFive:string='Homefive.png'
+  RewardIcon="rewardIcon.png";
+  RewardBoxIcon="Rewardbox.png";
+  UiCoinsBrand="UIcoinBrand.png"
+  SecureCreditCard="CreditcardSecure.png"
+  
 
 }
