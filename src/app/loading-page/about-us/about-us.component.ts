@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent {
+  backgroundImageUrl="AboutAup.jpeg";
+  Founderimg="FounderImg.png"
 
 }

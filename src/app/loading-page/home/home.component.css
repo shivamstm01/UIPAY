@@ -44,19 +44,41 @@ margin: 0 15%;
     /* //margin: 40px; */
     
     display: inline-flex;
+    margin-left: 120px;
     h2{
-        margin-top: 110px;
+        margin-top: 60px;
         padding-left: 120px;
+        width: 420px;
     }
     p{
-        text-align: center;
+        margin-left: 120px;
+        width: 420px;
+
     }
 
     img{
-        height: 314px;
-        width: 478px;
+        height: 354px;
+        width: 378px;
     }
 }
+
+.FinanceMangmnt{
+    display: inline-flex;
+    .content{
+        margin-left: 280px;
+        margin-top: 90px;
+        width: 650px;
+    }
+    p{
+        width: 400px;
+        font-size: 18px;
+    }
+    .SavingPlnImg{
+        width: 450px;
+        height: 360px; 
+    }
+}
+
 
 #contentcenter{
     text-align: center;
@@ -273,5 +295,65 @@ margin-top: 30px;
         height: 300px; 
     }
 }
+
+
+.SecurityMeasures{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+
+    h1{
+        padding-top: 35px;
+    }
+    .ContentBox{
+        display: inline-flex;
+        margin-left: 350px;
+        #boxHeading{
+            
+            color: rgba(92, 89, 193, 1);
+
+        }
+        .Contentone{
+            width: 400px;
+            height: 150px;
+            background-color: white;
+            margin-left: 20px;
+          border-bottom-right-radius: 200px 200px;
+          border-top-right-radius: 20px;
+          border-top-left-radius:20px;
+          border-bottom-left-radius: 20px;
+
+          h3{
+            margin-left:25px ;
+          }
+          p{
+            width: 270px;
+            margin-left: 25px;
+          }
+        }
+        .ContentTwo{
+            width: 400px;
+            height: 150px;
+            background-color: white;
+            margin-left: 20px;
+          border-top-left-radius: 200px 200px;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+          border-top-right-radius: 20px;
+
+          h3{
+            margin-left:125px ;
+          }
+
+          p{
+            width: 320px;
+            margin-left: 45px;
+          }
+        }
+    }
+   
+}
+
 
 

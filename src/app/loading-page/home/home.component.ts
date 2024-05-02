@@ -19,6 +19,7 @@ export class HomeComponent {
   AppleStoreIcon="APPLEStore.png";
   GoogleStoreIcon="gstore.png";
   SavingPlnIcon="SavingPlan.png";
+  FinMangntEmoji="FinanceMngmntEmoji.png"
   
 
 }
