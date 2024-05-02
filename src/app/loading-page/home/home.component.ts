@@ -13,8 +13,12 @@ export class HomeComponent {
   HomeImageFive:string='Homefive.png'
   RewardIcon="rewardIcon.png";
   RewardBoxIcon="Rewardbox.png";
-  UiCoinsBrand="UIcoinBrand.png"
-  SecureCreditCard="CreditcardSecure.png"
+  UiCoinsBrand="UIcoinBrand.png";
+  SecureCreditCard="CreditcardSecure.png";
+  MobileIcon="MobileIcon.png";
+  AppleStoreIcon="APPLEStore.png";
+  GoogleStoreIcon="gstore.png";
+  SavingPlnIcon="SavingPlan.png";
   
 
 }

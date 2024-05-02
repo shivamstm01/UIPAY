@@ -149,3 +149,129 @@ img{
         }
     }
 }
+
+.OfferContent{
+    text-align: center;
+    p{
+        font-weight: bold;
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 45px;
+    }
+}
+
+
+
+
+.UIPlans{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 540px;
+
+    #planYear{
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+
+    #BuyBtn{
+        color: white;
+        height: 30px;
+        width: 170px;
+        background-color: blue;
+        border-radius: 25px;
+        text-align: center;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+    
+
+    .planone{
+        height: 180px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: #22232A;
+    color: white;
+    }
+
+    .plantwo{
+        height: 180px;
+        width: 220px;
+        border-radius: 20px;
+        background-color: #22232A;
+        color: white;
+        margin-left: 30px;
+        
+    }
+}
+
+
+
+
+.AppStoreBlock{
+    width: 100%;
+height: 370px;
+margin-top: 30px;
+
+ background: rgba(245, 247, 255, 1);
+
+.AppStoreContent{
+    margin-left: 100px;
+    display: inline-flex;
+
+
+    .MobileIconImg{
+        margin-top: 40px;
+        height: 300px;
+        width: 150px;
+        margin-left: 180px;
+    }
+
+    .contentBox{
+        margin-top: 30px;
+        width: 650px;
+        margin-left: 30px;
+        
+        h2{
+            width: 320px;
+            margin-left: 100px;
+            margin-top: 80px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        
+        .ContentImage{
+            display: inline-flex;
+            margin-left: 100px;
+
+            .AppleStoreIcon{
+                height: 40px;
+            }
+            .GoogleStoreIcon{
+                height: 40px;
+                margin-left: 10px;
+
+            }
+
+        }
+    }
+
+}
+
+}
+
+
+
+.SavingContent{
+    display: inline-flex;
+    .content{
+        margin-left: 280px;
+        margin-top: 90px;
+        width: 650px;
+    }
+    .SavingPlnImg{
+        width: 300px;
+        height: 300px; 
+    }
+}
+
+
