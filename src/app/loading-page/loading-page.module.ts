@@ -5,17 +5,20 @@ import { LoadingPageRoutingModule } from './loading-page-routing.module';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     HeaderComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ContactUsComponent
   ],
   imports: [
     CommonModule,
-    LoadingPageRoutingModule
+    LoadingPageRoutingModule,ReactiveFormsModule,FormsModule
   ],
   exports:[
     HomeComponent,

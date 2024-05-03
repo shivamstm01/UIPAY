@@ -1,0 +1,68 @@
+<app-header></app-header>
+
+<div class="Contact">
+    <h1 class="ContactHeading">How can we help you today ?</h1>
+
+    <p class="Formhead">Fill Out The Form</p>
+
+    <div class="form">
+        <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+         
+         
+            <div class="name">
+
+                <div class="fname">
+                    <div><label for="firstName">First Name</label></div>
+                    <input type="text" id="firstName" formControlName="firstName">
+                    <div class="error">
+                      <div >First Name is required.</div>
+                    </div>
+                  </div>
+                
+                  <div class="lname">
+                    <div><label for="lastName">Last Name</label></div>
+                    <input type="text" id="lastName" formControlName="lastName">
+                    <div  class="error">
+                      <div >Last Name is required.</div>
+                    </div>
+                  </div>
+                
+
+          </div>
+
+
+            <div class="personContact">
+                <div class="email">
+                   <div> <label for="email">Email</label></div>
+                    <input type="email" id="email" formControlName="email">
+                    <div  class="error">
+                      <div >Email is required.</div>
+                      <div >Invalid email format.</div>
+                    </div>
+                  </div>
+                
+                  <div class="MobNumber">
+                    <div><label for="mobileNumber">Mobile Number</label></div>
+                    <input type="number" id="mobileNumber" formControlName="mobileNumber">
+                    <div class="error">
+                      <div>Mobile Number is required.</div>
+                    </div>
+                  </div>
+            </div>
+
+          
+            <div class="compony">
+              <div><label for="company">Company</label></div>
+              <input type="text" id="company" formControlName="company">
+            </div>
+
+            <div class="Problems">
+                <div><label for="problems">Problems</label></div>
+                <input type="text" id="problems" formControlName="problems">
+              </div>
+          
+            <button type="submit" class="Submit" [disabled]="myForm.invalid">Submit</button>
+          </form>
+          
+    </div>
+</div>
