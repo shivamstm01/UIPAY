@@ -13,12 +13,82 @@
 
   <div class="FounderIntro">
 
-    <div>
+    <div class="founderimg">
         <img [src]="'assets/' + Founderimg" class="Founderimg" alt="Founderimg" >
     </div>
 
     <div class="founderabout">
-        <h1>Founder <span id="Orange">on a mission</span></h1>
+        <h1 class="Introhead">Founder <span id="Orange">on a mission</span></h1>
+
+        <p class="content">Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit proin risus tempor ultrices. 
+            Sit purus ante dictum in malesuada id. Tincidunt massa purus nascetur elit ullamcorper ac sit in. 
+            Egestas vitae lobortis tellus.</p>
+
+            <h1 class="NameContent"><span id="Orange">Purushotham Reddy</span>
+                Founder </h1>
+
+    </div>
+
+  </div>
+
+
+  <div class="Story">
+    <h1 class="heading">Our <span id="Orange">Story</span></h1>
+
+    <div class="StroryContent">
+
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit proin risus tempor ultrices. Sit purus ante dictum in malesuada id. Tincidunt massa purus nascetur elit ullamcorper ac sit in. Egestas vitae lobortis tellus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur. Sagittis amet volutpat quis suscipit mattis scelerisque. Aenean mauris mauris maecenas iaculis ipsum facilisis. Elit blandit leo in viverra tortor accumsan. Leo interdum vestibulum eget id est viverra. Pellentesque eleifend.</p>
+            <p>Lorem ipsum dolor sit amet consectetur. Sagittis amet volutpat quis suscipit mattis scelerisque. Aenean mauris mauris maecenas iaculis ipsum facilisis. Elit blandit leo in viverra tortor accumsan. Leo interdum vestibulum eget id est viverra. Pellentesque eleifend.</p>
+    </div>
+
+    <div class="storyimg">
+        <img [src]="'assets/' + AboutStoryimg" class="AboutStoryimg" alt="AboutStoryimg">
+    </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="UiTeams">
+
+    <h1 class="contenthead">Meet <span id="Orange">Our Team</span></h1>
+
+    <div *ngFor="let item of UIPayTeam" class="TeamInfo">
+
+        <div class="content"><img [src]="'assets/' + item.image" class="AboutStoryimg" alt="AboutStoryimg">
+        <h4> {{item.name}}</h4>
+            <h4>{{item.Desination}}</h4>
+            <img  [src]="'assets/' + linkedinEmoji" class="linkedinIcon"> 
+    </div>
+       
+
+    </div>
+
+  </div>
+
+  
+
+
+  <div class="UIPayValues">
+
+    <p class="contentHead">Our values</p>
+
+    <h2 class="contentThem">Things in we believe</h2>
+    <p class="Contentpara">At UIPE, we uphold a set of core values that guide our actions and define our commitment to our users and the community we serve.</p>
+
+    <div class="valuesContent" *ngFor="let item of UIPayValue">
+
+        <div class="contentimage">
+            <img [src]="'assets/' + item.image"  alt="contentimage">
+        </div>
+
+        <div class="content">
+                <h1 class="contentHeads">{{item.contentHead}}</h1>
+                <p class="contentpara">{{item.contentpara}}</p>
+        </div>
 
     </div>
 

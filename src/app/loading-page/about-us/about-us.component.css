@@ -40,7 +40,148 @@
 
 
 
+
   .FounderIntro{
     display: inline-flex;
+    margin:30px 15%;
+
+    .founderimg{
+        background-color: blueviolet;
+       border-start-end-radius: 20pc;
+       height: 400px;
+       width: 300px;
+       img{
+        height: 350px;
+        margin-top: 45px;
+       }
+    }
+
+    .founderabout{
+        margin-left: 40px;
+        margin-top: 30px;
+        .Introhead{
+            font-size: 50px;
+        }
+        .content{
+            font-size: 22px;
+            width: 96%;
+        }
+        .NameContent{
+            font-size: 40px;
+            width: 400px;
+        }
+    }
+
+  }
+
+
+  .Story{
+    .heading{
+        text-align: center;
+    }
+
+    .StroryContent{
+        display: inline-flex;
+            .content{
+                font-size: 25px;
+                width: 54%;
+                margin-left: 10%;
+            }
+        .storyimg{
+            margin-top: 60px;
+            margin-left: 50px;
+            border-radius: 18px;
+            img{
+                height: 300px;
+                width: 350px;
+                
+            }
+            
+        }
+    }
   }
   
+
+  .UiTeams{
+    
+    margin: 15px 14%;
+    .contenthead{
+        text-align: center;
+    }
+    .TeamInfo{
+        display: inline-flex;
+        .content{
+            img{
+                height: 250px;
+                width: 200px;
+                margin: 25px;
+                border-radius: 15px;
+            }
+            h4{
+                text-align: center;
+                margin-top: -2px;
+            }
+
+            .linkedinIcon{
+                height: 30px;
+                width: 30px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+    }
+  }
+
+
+
+
+  .UIPayValues{
+   background: rgba(245, 247, 255, 1);
+   
+    ;
+    .contentHead{
+        font-size: 30px;
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 30px;
+       margin-left: 120px;
+    }
+    .contentThem{
+        font-size: 35px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 120px;
+    }
+    .Contentpara{
+        font-size: 18px;
+        margin-left: 120px;
+    }
+
+    .valuesContent{
+        display: inline-flex;
+        margin: 10px;
+        margin-top: 30px;
+        
+
+        .contentimage{
+            margin-left: 120px;
+            img{
+                height: 120px;
+                width: 150px;
+            }
+        }
+        .content{
+            margin-left: 20px;
+            .contentHeads{
+                margin-top: 10px;
+                font-size: 25px;
+            }
+            .contentpara{
+                font-size: 18px;
+                margin-top: -10px;
+                width: 76%;
+            }
+        }
+    }
+  }
