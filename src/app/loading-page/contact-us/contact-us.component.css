@@ -95,3 +95,170 @@
        
     }
 }
+
+
+
+.Support{
+
+    margin-top: 30px;
+
+
+    .SupportHead{
+        text-align: center;
+        font-size: 38px;
+        font-family: sans-serif;
+    }
+    .headpara{
+        text-align: center;
+        font-size: 22px;
+        font-family: sans-serif; 
+    }
+    .SupportContent{
+        display: inline-flex;
+
+        margin-left: 100px;
+        
+        .Contact-SupportBox{
+            height: 270px;
+            width: 320px;
+            background: rgba(234, 238, 255, 1);
+            margin-left: 100px;
+            padding-top: 15px;
+            border-radius: 10px;
+
+            .Contact-icon{
+                height: 45px;
+                width: 45px;
+                border-radius: 30px;
+                background-color: white;
+                margin-left: 17px;
+
+                #phone{
+                    margin-top: 10px;
+                    margin-left: 12px;
+                    font-size: 25px;
+                }
+
+            }
+
+            .Contact-Heading{
+                margin-left:17px ;
+                font-size: 22px;
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .mob-content{
+                color: rgba(92, 89, 193, 1);
+                margin-left:17px;
+                margin-top: -20px;
+
+            }
+            .contact-para{
+                font-size: 13px;
+                color:  rgba(121, 121, 121, 1);
+                margin-left:17px;
+                width: 255px;
+            }
+
+            .contact-btn{
+                height: 40px;
+                width: 120px;
+                border-radius: 30px;
+                background-color: white; 
+                text-align: center;  
+                padding-top: 18px; 
+                margin-left: 17px;
+                font-weight: bold;
+            }
+        
+        }
+
+        .Support-Email{
+            height: 270px;
+            width: 320px;
+            background: rgba(234, 238, 255, 1);
+            margin-left: 100px;
+            padding-top: 15px;
+            border-radius: 10px;
+
+            .email-icon{
+                height: 45px;
+                width: 45px;
+                border-radius: 30px;
+                background-color: white;
+                margin-left: 17px;
+
+                #email{
+                    margin-top: 9px;
+                    margin-left: 10px;
+                    font-size: 25px;
+                }
+
+            }
+            .email-Heading{
+                margin-left:17px ;
+                font-size: 22px;
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .email-content{
+                color: rgba(92, 89, 193, 1);
+                margin-left:17px;
+                margin-top: -20px;
+            }
+            .email-contentpara{
+                font-size: 13px;
+                color:  rgba(121, 121, 121, 1);
+                margin-left:17px;
+                width: 255px;
+            }
+            .email-btn{
+                height: 40px;
+                width: 120px;
+                border-radius: 30px;
+                background-color: white; 
+                text-align: center;  
+                padding-top: 18px; 
+                margin-left: 17px;
+                font-weight: bold;
+            }
+        }
+
+        .Location{
+            height: 270px;
+            width: 320px;
+            background: rgba(234, 238, 255, 1);
+            margin-left: 100px;
+            padding-top: 15px;
+            border-radius: 10px;
+
+            .Location-icon{
+                height: 45px;
+                width: 45px;
+                border-radius: 30px;
+                background-color: white;
+                margin-left: 17px;
+
+                #location{
+                    margin-top: 10px;
+                    margin-left: 15px;
+                    font-size: 25px;
+                }
+            }
+            .location-Heading{
+                margin-left:17px ;
+                font-size: 22px;
+                margin-top: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .Address-content{
+                font-size: 13px;
+                color:  rgba(121, 121, 121, 1);
+                margin-left:17px;
+                
+            }
+
+        }
+    }
+   
+}
