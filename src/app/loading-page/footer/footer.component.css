@@ -1,90 +1,205 @@
 .footer{
+
     width: 100%;
-    height: 220px;
-    background: rgba(27, 27, 27, 1);
-    display: inline-flex;
-
-    .footer-para{
-        color: white;
-        font-size: 14px;
-        height: 60px;
-        width: 240px;
-        /* border: 1px red solid; */
-        margin-top: 90px;
-        margin-left: 100px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .Genral-Content{
-        color: white;
-        height: 150px;
-        margin-top: 50px;
-        margin-left: 120px;
-        .genContent-heading{
-            font-size: 17px;
+        height: 280px;
+        background: rgba(27, 27, 27, 1);
+    .footer-middle{
+        
+        display: inline-flex;
+    
+        .footer-para{
+            color: white;
+            font-size: 14px;
+            height: 60px;
+            width: 240px;
+            /* border: 1px red solid; */
+            margin-top: 90px;
+            margin-left: 100px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        .genContent-data{
-            margin-top: 10px;
-
-            #gen-data{
-                padding-top: 6px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 14px;
-            }
-        }
-    }
-
-    .Policies-Content{
-        color: white;
-        /* height: 150px; */
-        margin-top: 50px;
-        margin-left: 120px;
-        .PoliContent-heading{
-            font-size: 17px;
-            text-align: left;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        .PolContent-data{
-            margin-top: 10px;
-
-            #Policies-data{
-                padding-top: 6px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 14px;
-            }
-        }
-    }
-
-    .Get-touch-Content{
-        color: white;
-        /* height: 150px; */
-        margin-top: 50px;
-        margin-left: 125px;
-        .Get-touch-Heading{
+    
+        .Genral-Content{
+            color: white;
+            height: 150px;
+            margin-top: 50px;
+            margin-left: 80px;
+            .genContent-heading{
                 font-size: 17px;
-            text-align: left;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        .Get-touch-data{
-            margin-top: 10px;
-            #content-data{
-                padding-top: 6px;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 14px;
-                width: 220px;
             }
-            .facebook-data{
-                height: 5px;
-                width: 5px;
-                background-color: white;
-
-                .fa fa-facebook{
-                    color: black;
+            .genContent-data{
+                margin-top: 10px;
+    
+                #gen-data{
+                    padding-top: 6px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 14px;
                 }
-
             }
         }
+    
+        .Policies-Content{
+            color: white;
+            /* height: 150px; */
+            margin-top: 50px;
+            margin-left: 80px;
+            .PoliContent-heading{
+                font-size: 17px;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .PolContent-data{
+                margin-top: 10px;
+    
+                #Policies-data{
+                    padding-top: 6px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 14px;
+                }
+            }
+        }
+    
+        .Get-touch-Content{
+            color: white;
+            /* height: 150px; */
+            margin-top: 50px;
+            margin-left: 80px;
+            .Get-touch-Heading{
+                    font-size: 17px;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .Get-touch-data{
+                margin-top: 10px;
+                #content-data{
+                    padding-top: 6px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 14px;
+                    width: 220px;
+                }
+               
+                .Social-Network{
+                    display: inline-flex;
+                    margin-top: 10px;
+    
+                    .facebook{
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 20px;
+                        background-color: white;
+                        color: black;
+                        text-align: center;
+                       #fbicon{
+                        margin-top: 8px;
+                       }
+                    }
+    
+                    .twitter{
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 20px;
+                        background-color: white;
+                        color: black;
+                        text-align: center;
+                        margin-left: 10px;
+                       #tweeticon{
+                        margin-top: 8px;
+                       }
+                    }
+    
+                    .instagram{
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 20px;
+                        background-color: white;
+                        margin-left: 10px;
+                        color: black;
+                        text-align: center;
+                       #instaicon{
+                        margin-top: 7px;
+                       }
+                    }
+    
+                    .youtube{
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 20px;
+                        background-color: white;
+                        color: black;
+                        text-align: center;
+                        margin-left: 10px;
+                       #yticon{
+                        margin-top: 7px;
+                       }
+                    }
+                }
+            }
+        }
+    
+    
+    
+        .Subscribe-Content{
+            color: white;
+            /* height: 150px; */
+            margin-top: 50px;
+            margin-left: 80px;
+    
+            .Subscribe-heading{
+                font-size: 17px;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .Subscribe-data{
+                margin-top: 10px;
+                #Subscontent-data{
+                    padding-top: 6px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 14px;
+                    width: 280px;
+                }
+    
+                .sub-email-content{
+    
+                    height:32px ;
+                    width: 100%;
+                    border-radius: 10px;
+                    background-color: white;
+                    margin-top: 12px;
+                    .Subscribe-Input{
+                        height: 30px;
+                        width: 190px;
+                        margin-left: 11px;
+                        
+                        color: blueviolet;
+                        border: none;
+                        border-radius: 10px;
+                    }
+        
+                    .subs-btn{
+                        height: 32px;
+                        width: 75px;
+                        border-radius: 10px;
+                        border: none;
+                        color: white;
+                        background-color:  rgba(92, 89, 193, 1);
+                        ;
+                    }
+    
+                }
+    
+                
+    
+            }
+    
+        }
+    
+        
+    
     }
-
+    .Compony-rights{
+        color: rgba(189, 185, 185, 1);
+        text-align: center;
+        margin-top: 30px;
+    }
 }
+

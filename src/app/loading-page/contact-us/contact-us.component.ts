@@ -20,7 +20,8 @@ export class ContactUsComponent implements OnInit {
       lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       mobileNumber: ['', Validators.required],
-      company: ['']
+      company: [''],
+      problems:['']
     });
   }
 
