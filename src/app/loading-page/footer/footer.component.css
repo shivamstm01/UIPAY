@@ -1,0 +1,90 @@
+.footer{
+    width: 100%;
+    height: 220px;
+    background: rgba(27, 27, 27, 1);
+    display: inline-flex;
+
+    .footer-para{
+        color: white;
+        font-size: 14px;
+        height: 60px;
+        width: 240px;
+        /* border: 1px red solid; */
+        margin-top: 90px;
+        margin-left: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .Genral-Content{
+        color: white;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 120px;
+        .genContent-heading{
+            font-size: 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .genContent-data{
+            margin-top: 10px;
+
+            #gen-data{
+                padding-top: 6px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .Policies-Content{
+        color: white;
+        /* height: 150px; */
+        margin-top: 50px;
+        margin-left: 120px;
+        .PoliContent-heading{
+            font-size: 17px;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .PolContent-data{
+            margin-top: 10px;
+
+            #Policies-data{
+                padding-top: 6px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .Get-touch-Content{
+        color: white;
+        /* height: 150px; */
+        margin-top: 50px;
+        margin-left: 125px;
+        .Get-touch-Heading{
+                font-size: 17px;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .Get-touch-data{
+            margin-top: 10px;
+            #content-data{
+                padding-top: 6px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                width: 220px;
+            }
+            .facebook-data{
+                height: 5px;
+                width: 5px;
+                background-color: white;
+
+                .fa fa-facebook{
+                    color: black;
+                }
+
+            }
+        }
+    }
+
+}
