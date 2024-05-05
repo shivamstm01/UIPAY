@@ -1,0 +1,118 @@
+
+<div class="login" *ngIf="login">
+
+    <div class="login-content">
+
+        <h1 class="heading">Login to your account</h1>
+        <p class="head-para">Login using social networks</p>
+
+        <div class="social-login">
+            <div class="Google-Login"><a href="https://mail.google.com/mail/u/0/"><img [src]="'assets/' + GoogleLogin" id="GoogleLogin" alt="GoogleLogin"></a></div>
+            <div class="FB-Login"><a href="https://www.facebook.com/"><img [src]="'assets/' + FacebookLogin" id="FacebookLogin" alt="FacebookLogin"></a></div>
+            <div class="Apple-Login"><a href="https://www.icloud.com//"><img [src]="'assets/' + AppleLogin" id="AppleLogin" alt="AppleLogin"></a></div>
+        </div>
+
+        
+            <div class="division">
+                <div id="or"></div>
+                <div> Or </div>
+                <div id="or"></div>
+            </div>
+
+            <div class="login-form">
+                <form  >
+                    <input type="text" placeholder="Email / Phone Number" class="Login-num">
+                    <input type="password" placeholder="Password" class="password">
+                    <button class="submit" routerLink="/user/kyc">Sign in</button>
+                </form>
+            </div>
+    </div>
+
+
+    <div class="new-user">
+
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a routerLink="/loading-page/home">Home</a></li>
+                    <li><a routerLink="/loading-page/Contact-us">Contact Us</a></li>
+                    <li><a routerLink="/loading-page/About-us">About Us</a></li>
+                    <li><button class="user-login" (click)="newAccount()">Register</button></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="circle"></div>
+
+        <h1 class="new-user-head">New Here ?</h1>
+        <p class="creact-account-para">Create a account here </p>
+
+        <div class="Create-user-btn">
+            <button class="new-acc-btn" (click)="newAccount()">Create a account</button>
+        </div>
+
+        <div class="half-circle"></div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="login" *ngIf="!login">
+
+    <div class="login-content">
+
+        <h1 class="heading">Create a account</h1>
+        <p class="head-para">Create account using social networks</p>
+
+        <div class="social-login">
+            <div class="Google-Login"><a href="https://mail.google.com/mail/u/0/"><img [src]="'assets/' + GoogleLogin" id="GoogleLogin" alt="GoogleLogin"></a></div>
+            <div class="FB-Login"><a href="https://www.facebook.com/"><img [src]="'assets/' + FacebookLogin" id="FacebookLogin" alt="FacebookLogin"></a></div>
+            <div class="Apple-Login"><a href="https://www.icloud.com//"><img [src]="'assets/' + AppleLogin" id="AppleLogin" alt="AppleLogin"></a></div>
+        </div>
+
+        
+            <div class="division">
+                <div id="or"></div>
+                <div> Or </div>
+                <div id="or"></div>
+            </div>
+
+            <div class="login-form">
+                <form  >
+                    <input type="text" placeholder="Email / Phone Number" class="Login-num">
+                    <input type="password" placeholder="Password" class="password">
+                    <button class="submit">Create account</button>
+                </form>
+            </div>
+    </div>
+
+
+    <div class="new-user">
+
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a routerLink="/loading-page/home">Home</a></li>
+                    <li><a routerLink="/loading-page/Contact-us">Contact Us</a></li>
+                    <li><a routerLink="/loading-page/About-us">About Us</a></li>
+                    <li><button class="user-login" (click)="Userlogin()">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="circle"></div>
+
+        <h1 class="new-user-head">Welcome Back !</h1>
+        <p class="creact-account-para">Login Here </p>
+
+        <div class="Create-user-btn">
+            <button class="new-acc-btn" (click)="Userlogin()">Log In</button>
+        </div>
+
+        <div class="half-circle"></div>
+
+    </div>
+</div>
